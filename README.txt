@@ -3,7 +3,6 @@ http://www.scribd.com/developers
 
 Setup:
 
-Clone into a dir that quicklisp knows about.
 (ql:quickload :cl-scribd)
 (in-package :cl-scribd)
 (setf *api-key* "my-api-key")
